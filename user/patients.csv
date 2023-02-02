@@ -1,0 +1,101 @@
+id,Plan,Sex,DOB,Race,CRace,Ethnicity,CEthnicity,FName,LName
+1,DOD,M,12/2/1926,White,W,Not Hispanic,NH,Vernon,LOPEZ
+2,DOD,F,2/16/1948,Asian,A,Not Hispanic,NH,Beth,GONZALEZ
+3,DOD,F,1/19/1946,White,W,Hispanic,H,Lee,MARTIN
+4,DOD,F,6/27/1948,White,W,Not Hispanic,NH,Carolyn,THOMPSON
+5,DOD,F,10/13/1945,Black or African American,B,Not Hispanic,NH,Judith,MARTINEZ
+6,DOD,F,6/2/1950,White,W,Not Hispanic,NH,Janet,WHITE
+7,DOD,F,1/20/1948,White,W,Not Hispanic,NH,Sheila,LEE
+8,DOD,M,8/15/1935,White,W,Not Hispanic,NH,Paul,MARTIN
+9,DOD,M,9/25/1944,White,W,Not Hispanic,NH,Marlin,ANDERSON
+10,DOD,M,9/2/1936,Black or African American,B,Not Hispanic,NH,Alfred,RODRIGUEZ
+11,DOD,F,9/17/1948,White,W,Not Hispanic,NH,Karen,RODRIGUEZ
+12,DOD,M,2/9/1948,White,W,Not Hispanic,NH,Paul,RODRIGUEZ
+13,DOD,F,6/30/1948,White,W,Not Hispanic,NH,Annie,JONES
+14,DOD,F,10/3/1948,White,W,Not Hispanic,NH,Nancy,TAYLOR
+15,DOD,F,12/18/1948,White,W,Hispanic,H,Barbara,WILSON
+16,DOD,M,6/16/1932,White,W,Not Hispanic,NH,Justin,TAYLOR
+17,DOD,F,2/11/1950,White,W,Not Hispanic,NH,Carmen,THOMPSON
+18,DOD,F,2/24/1950,White,W,Not Hispanic,NH,Jessica,WHITE
+19,DOD,F,11/2/1949,White,W,Hispanic,H,Dianne,THOMAS
+20,DOD,M,5/4/1949,White,W,Not Hispanic,NH,David,LOPEZ
+21,DOD,M,8/2/1936,White,W,Not Hispanic,NH,Larry,LEE
+22,DOD,F,11/11/1947,White,W,Not Hispanic,NH,Mary,MOORE
+23,DOD,M,1/28/1926,White,W,Not Hispanic,NH,James,JONES
+24,DOD,M,8/12/1941,White,W,Not Hispanic,NH,Billy,TAYLOR
+25,DOD,F,12/25/1946,White,W,Not Hispanic,NH,Margie,WHITE
+26,DOD,F,2/27/1948,White,W,Not Hispanic,NH,Eileen,THOMPSON
+27,DOD,F,10/12/1946,Black or African American,B,Not Hispanic,NH,Marion,MILLER
+28,DOD,F,6/24/1947,White,W,Not Hispanic,NH,Maureen,HERNANDEZ
+29,DOD,F,3/10/1948,White,W,Hispanic,H,Cynthia,THOMPSON
+30,DOD,M,11/13/1949,White,W,Not Hispanic,NH,John,THOMPSON
+31,DOD,F,6/4/1950,White,W,Not Hispanic,NH,Loretta,THOMAS
+32,DOD,F,10/2/1947,Black or African American,B,Not Hispanic,NH,Lois,JONES
+33,DOD,F,6/26/1949,White,W,Hispanic,H,Kaye,MARTIN
+34,DOD,M,8/14/1931,White,W,Not Hispanic,NH,Kent,LEE
+35,DOD,M,6/14/1950,White,W,Not Hispanic,NH,Ernest,MARTINEZ
+36,DOD,M,3/16/1949,White,W,Hispanic,H,Donald,MARTIN
+37,DOD,M,10/25/1941,White,W,Not Hispanic,NH,Alvis,TAYLOR
+38,DOD,M,6/27/1926,White,W,Not Hispanic,NH,Jeremiah,TAYLOR
+39,DOD,F,8/15/1946,White,W,Not Hispanic,NH,Sheila,MARTIN
+40,DOD,M,10/10/1945,White,W,Not Hispanic,NH,David,LEE
+41,DOD,M,12/3/1945,White,W,Not Hispanic,NH,Richard,MARTIN
+42,DOD,F,8/12/1946,White,W,Not Hispanic,NH,Kathy,JOHNSON
+43,DOD,F,1/3/1946,White,W,Not Hispanic,NH,Carrie,WILSON
+44,DOD,F,8/25/1947,White,W,Not Hispanic,NH,Joan,THOMPSON
+45,DOD,M,7/13/1936,White,W,Not Hispanic,NH,Roland,MOORE
+46,DOD,M,5/26/1936,Asian,A,Not Hispanic,NH,Sidney,GREEN
+47,DOD,M,1/9/1947,White,W,Not Hispanic,NH,John,BROWN
+48,DOD,M,11/6/1932,White,W,Not Hispanic,NH,James,TAYLOR
+49,DOD,F,12/19/1945,Black or African American,B,Not Hispanic,NH,Patricia,MARTINEZ
+50,DOD,M,12/10/1943,White,W,Not Hispanic,NH,William,MARTIN
+51,Non-DOD,F,3/20/1948,Black or African American,B,Not Hispanic,NH,Bertha,RODRIGUEZ
+52,Non-DOD,F,10/26/1947,White,W,Not Hispanic,NH,Roberta,MOORE
+53,Non-DOD,M,1/9/1949,White,W,Not Hispanic,NH,Gale,WHITE
+54,Non-DOD,F,10/13/1945,Two or more races,M,Not Hispanic,NH,Mildred,WILSON
+55,Non-DOD,F,8/14/1947,White,W,Not Hispanic,NH,Nancy,TAYLOR
+56,Non-DOD,F,2/17/1950,White,W,Not Hispanic,NH,Nancy,BROWN
+57,Non-DOD,F,11/11/1946,White,W,Not Hispanic,NH,Janice,LOPEZ
+58,Non-DOD,M,4/23/1950,White,W,Hispanic,H,Chester,THOMAS
+59,Non-DOD,M,5/6/1928,White,W,Not Hispanic,NH,William,ANDERSON
+60,Non-DOD,M,11/11/1943,White,W,Not Hispanic,NH,Peter,JOHNSON
+61,Non-DOD,M,7/7/1942,White,W,Hispanic,H,Jack,JACKSON
+62,Non-DOD,M,2/6/1948,White,W,Hispanic,H,Stanley,HERNANDEZ
+63,Non-DOD,M,2/22/1938,White,W,Not Hispanic,NH,Donald,ANDERSON
+64,Non-DOD,M,6/4/1949,White,W,Not Hispanic,NH,Andrew,MARTIN
+65,Non-DOD,F,8/31/1947,Two or more races,M,Hispanic,H,Cheryl,MARTIN
+66,Non-DOD,M,1/24/1949,White,W,Not Hispanic,NH,Larry,BROWN
+67,Non-DOD,M,12/1/1933,White,W,Not Hispanic,NH,Walter,JACKSON
+68,Non-DOD,M,5/31/1948,White,W,Not Hispanic,NH,Kenneth,HERNANDEZ
+69,Non-DOD,M,9/20/1941,White,W,Not Hispanic,NH,Eugene,MOORE
+70,Non-DOD,F,6/18/1946,White,W,Hispanic,H,Charlotte,RODRIGUEZ
+71,Non-DOD,F,9/1/1946,White,W,Not Hispanic,NH,Yvonne,TAYLOR
+72,Non-DOD,F,12/15/1946,White,W,Not Hispanic,NH,Charlene,LEE
+73,Non-DOD,F,1/20/1948,White,W,Not Hispanic,NH,Suzanne,WHITE
+74,Non-DOD,M,8/7/1949,White,W,Not Hispanic,NH,Donald,JACKSON
+75,Non-DOD,M,3/18/1950,White,W,Not Hispanic,NH,James,THOMAS
+76,Non-DOD,M,4/4/1930,White,W,Not Hispanic,NH,James,THOMPSON
+77,Non-DOD,F,11/6/1948,White,W,Hispanic,H,Antoinette,HERNANDEZ
+78,Non-DOD,F,5/15/1949,White,W,Not Hispanic,NH,Linda,HERNANDEZ
+79,Non-DOD,F,10/10/1948,American Indian and Alaska Native,I,Not Hispanic,NH,Dianne,RODRIGUEZ
+80,Non-DOD,F,7/18/1949,Asian,A,Hispanic,H,Gayle,MARTINEZ
+81,Non-DOD,F,8/26/1945,White,W,Hispanic,H,Van,THOMPSON
+82,Non-DOD,M,6/29/1948,Asian,A,Not Hispanic,NH,Joseph,ROBINSON
+83,Non-DOD,F,6/22/1946,White,W,Not Hispanic,NH,Suzanne,LOPEZ
+84,Non-DOD,M,6/7/1933,White,W,Not Hispanic,NH,Henry,TAYLOR
+85,Non-DOD,M,4/20/1945,White,W,Not Hispanic,NH,Rex,THOMAS
+86,Non-DOD,F,12/31/1948,White,W,Hispanic,H,Mary,TAYLOR
+87,Non-DOD,M,9/15/1936,Black or African American,B,Not Hispanic,NH,Russell,JONES
+88,Non-DOD,M,12/30/1932,White,W,Not Hispanic,NH,Robert,JACKSON
+89,Non-DOD,M,3/4/1941,White,W,Not Hispanic,NH,Ronald,TAYLOR
+90,Non-DOD,F,1/6/1950,American Indian and Alaska Native,I,Hispanic,H,Joan,HERNANDEZ
+91,Non-DOD,M,5/29/1947,White,W,Not Hispanic,NH,Richard,ANDERSON
+92,Non-DOD,M,12/5/1940,White,W,Not Hispanic,NH,Ogden,ANDERSON
+93,Non-DOD,F,11/29/1946,White,W,Not Hispanic,NH,Lois,RODRIGUEZ
+94,Non-DOD,M,3/12/1947,White,W,Hispanic,H,Philip,THOMPSON
+95,Non-DOD,M,5/8/1932,White,W,Not Hispanic,NH,Leslie,MARTIN
+96,Non-DOD,M,1/2/1949,White,W,Not Hispanic,NH,James,TAYLOR
+97,Non-DOD,M,6/11/1946,Black or African American,B,Not Hispanic,NH,James,MARTINEZ
+98,Non-DOD,M,12/2/1938,White,W,Not Hispanic,NH,Orville,TAYLOR
+99,Non-DOD,F,2/25/1948,White,W,Not Hispanic,NH,Betty,RODRIGUEZ
+100,Non-DOD,M,7/6/1941,White,W,Not Hispanic,NH,Harry,RODRIGUEZ

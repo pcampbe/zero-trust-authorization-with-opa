@@ -1,0 +1,7 @@
+.idea
+opa-conf.yaml
+kubeconfig*
+target
+.init
+*.iml
+setup_notes.sh
