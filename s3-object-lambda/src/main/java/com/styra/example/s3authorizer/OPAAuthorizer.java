@@ -25,7 +25,7 @@ public class OPAAuthorizer {
 
     private OpaQueryApi opaQueryApi;
 
-    private final String OPA_URL = "https://xxndqyws.ngrok.io";
+    private final String OPA_URL = "http://ecs-fargate-opa-1935735016.us-east-1.elb.amazonaws.com";
 
     private final Logger logger = LoggerFactory.getLogger(AuthorizationException.class);
 

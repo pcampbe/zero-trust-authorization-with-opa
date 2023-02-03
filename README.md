@@ -1,11 +1,37 @@
 # Using OPA and Object Lambda to Enforce Zero Trust Principles
 
+Note: I wanted to thank Adam Sandor from Styra for inspiration, assistance, and providing the code samples. 
+Please see his [blog](https://www.styra.com/blog/securing-aws-s3-buckets-with-opa-and-object-lambda/) post for more information. 
+
+## Zero Trust Model
+Zero Trust is a security model that seek to determine if the right person has that the right access to the right data.
+Within the traditional network perimeter trust was implied. This can no longer be the case based on the shift to Cloud hosting, 
+remote work and other types of modernization extend the protection surface beyond the corporate network.
+The result is that organizations now need to determine how to implement a security framework based on zero trust principles 
+that provided continuous verification of access to resources, all the time, for all resources, regardless of where the device
+or application exists.
+
+![zero-trust.png](zero-trust.png)
+Five-Step Process for Zero Trust Implementation, NSTAC Report to the President, Zero Trust and Trusted Identity Management
+
+## Zero Trust Principles for Data Security
+Zero trust principles can be applied to Data Security where every request for access to data needs to be authenticated to 
+determine if access can be granted. 
+
+1. Define the Protect Surface
+2. Map The Transaction Flows
+3. Build a Zero Trust Architecture
+4. Create Zero Trust Policy
+5. Monitor and Maintain the Network
+
+
+## Running the demo in your environment
 This demo shows how to authorize requests to Amazon S3 using OPA policies. The main components are:
 1. Data Bucket: An S3 bucket storing sample data authorized by the Object Lambda.The S3 data bucket is configured to meet FedRAMP moderate baseline. 
-2. Object Lambda: This will be our Policy Enforement Point (PEP). Tha Object Lambda sends all information about the S3
+2. Object Lambda: This will be our Policy Enforcement Point (PEP). Tha Object Lambda sends all information about the S3
 request to OPA and enforces the resulting policy decision.
 3. OPA + Rego policies: The Rego policies interpreted by the OPA runtime make the authorization decision. OPA needs to
-be accessible from the Object Lamda. The policies have to conform to the request/response format excpected by the Object 
+be accessible from the Object Lamda. The policies have to conform to the request/response format expected by the Object 
 Lambda.
 
 ## Getting started
