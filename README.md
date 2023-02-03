@@ -22,6 +22,7 @@ Zero trust principles can be applied to Data Security where every request for ac
 determine if access can be granted. 
 
 **1. Define the Protect Surface**
+
 In our demonstration the protect surface is defined as resources that exist within the FedRAMP authorization boundary.
 
 **2. Map The Transaction Flows**
@@ -30,13 +31,16 @@ The transaction flow is initiated by a person or non-person entity who is attemp
 stored in an AWS S3 bucket.
 
 **3. Build a Zero Trust Architecture**
+
 The five-step process for zero trust implementation was used to develop the architecture used in the demonstration.
 
 **4. Create Zero Trust Policy**
+
 Zero Trust Policy has been implemented using infrastructure as code (IaC) and policy as code (PaC) so that access
 to resources within the protect surface are continuously authenticated prior to granting access.
 
 **5. Monitor and Maintain the Network**
+
 The results of all policy decisions are stored in Splunk and continuously monitored. In the event that access is denied 
 to a user or non-person entity a detection rule triggers the appropriate security orchestration and automated response
 (SOAR) playbook.
