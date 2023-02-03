@@ -1,9 +1,9 @@
 # Using OPA and Object Lambda to Enforce Zero Trust Principles
 
-**Note**: I wanted to give thanks to **Adam Sandor** from **[Styra](https://www.styra.com)** for inspiration, assistance, 
-and providing the OPAAuthorizer code and scripts used to build the Lambda.
+_**Note**: I wanted to thank Adam Sandor from **[Styra](https://www.styra.com)** for inspiration, assistance, 
+and providing the OPAAuthorizer code and scripts used to build the Lambda._
 
-Please see his [blog](https://www.styra.com/blog/securing-aws-s3-buckets-with-opa-and-object-lambda/) post for more information. 
+Please see his [blog](https://www.styra.com/blog/securing-aws-s3-buckets-with-opa-and-object-lambda/) post for more information about OPA and Styra. 
 
 ## Zero Trust Model
 
