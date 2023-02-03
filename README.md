@@ -1,6 +1,8 @@
 # Using OPA and Object Lambda to Enforce Zero Trust Principles
 
-Note: I wanted to thank Adam Sandor from Styra for inspiration, assistance, and providing the code samples. 
+**Note**: I wanted to give thanks to **Adam Sandor** from **[Styra](https://www.styra.com)** for inspiration, assistance, 
+and providing the OPAAuthorizer code and scripts used to build the Lambda.
+
 Please see his [blog](https://www.styra.com/blog/securing-aws-s3-buckets-with-opa-and-object-lambda/) post for more information. 
 
 ## Zero Trust Model
@@ -44,6 +46,9 @@ Lambda.
 ![](diagram.png)
 
 1. Create an S3 bucket for storing the data files
+
+**Note**: [Intelligent Patient Data Generator ](https://www.mli.gmu.edu/index.php/research/ipdg/)(iPDG) was used to generate the healthcare data set. iPDG uses machine learning to 
+learn models from real data, combine these models with expert knowledge, and together apply to generate new synthetic data.
 
 2. Create a file named `.init` in the root of the cloned repo and provide values for each of the following keys:
 ```shell
