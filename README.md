@@ -6,12 +6,13 @@ and providing the OPAAuthorizer code and scripts used to build the Lambda.
 Please see his [blog](https://www.styra.com/blog/securing-aws-s3-buckets-with-opa-and-object-lambda/) post for more information. 
 
 ## Zero Trust Model
-Zero Trust is a security model that seek to determine if the right person has that the right access to the right data.
+
 Within the traditional network perimeter trust was implied. This can no longer be the case based on the shift to Cloud hosting, 
 remote work and other types of modernization extend the protection surface beyond the corporate network.
 The result is that organizations now need to determine how to implement a security framework based on zero trust principles 
 that provided continuous verification of access to resources, all the time, for all resources, regardless of where the device
-or application exists.
+or application exists. Zero Trust is a security model that seeks to determine if the right person has that the right access to 
+the right data.
 
 ![zero-trust.png](zero-trust.png)
 Five-Step Process for Zero Trust Implementation, NSTAC Report to the President, Zero Trust and Trusted Identity Management
@@ -21,11 +22,23 @@ Zero trust principles can be applied to Data Security where every request for ac
 determine if access can be granted. 
 
 1. Define the Protect Surface
-2. Map The Transaction Flows
-3. Build a Zero Trust Architecture
-4. Create Zero Trust Policy
-5. Monitor and Maintain the Network
+In our demonstration the protect surface is defined as resources that exist within the FedRAMP authorization boundary.
 
+2. Map The Transaction Flows
+The transaction flow is initiated by a person or non-person entity who is attempting a access patient records that are
+stored in an AWS S3 bucket.
+
+3. Build a Zero Trust Architecture
+The five-step process for zero trust implementation was used to develop the architecture used in the demonstration.
+
+4. Create Zero Trust Policy
+Zero Trust Policy has been implemented using infrastructure as code (IaC) and policy as code (PaC) so that access
+to resources within the protect surface are continuously authenticated prior to granting access.
+
+5. Monitor and Maintain the Network
+The results of all policy decisions are stored in Splunk and continuously monitored. In the event that access is denied 
+to a user or non-person entity a detection rule triggers the appropriate security orchestration and automated response
+(SOAR) playbook.
 
 ## Running the demo in your environment
 This demo shows how to authorize requests to Amazon S3 using OPA policies. The main components are:
