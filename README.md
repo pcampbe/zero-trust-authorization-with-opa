@@ -46,7 +46,8 @@ to a user or non-person entity a detection rule triggers the appropriate securit
 
 ## FedRAMP Moderate Baseline storage design for AWS S3 (example)
 
-Infrastructure as code (IaC) will be used to implement compliance and security requirements of FedRAMP moderate baseline.
+Infrastructure as code (IaC) will be used to implement compliance and security requirements used to meet FedRAMP moderate baseline.
+
 ![fedramp-s3.png](fedramp-s3.png)
 
 ## Running the demo in your environment
