@@ -1,9 +1,8 @@
 # Using OPA and Object Lambda to Enforce Zero Trust Principles
 
-_**Note**: I wanted to thank Adam Sandor from **[Styra](https://www.styra.com)** for inspiration, assistance, 
-and providing the OPAAuthorizer code and scripts used to build the Lambda used in this project._
+_Note: Adam Sandor from **[Styra](https://www.styra.com)** provided the OPAAuthorizer code and scripts used for the object lambda._
 
-Please see his [blog](https://www.styra.com/blog/securing-aws-s3-buckets-with-opa-and-object-lambda/) post for more information about OPA and Styra. 
+Please see Adam's [blog](https://www.styra.com/blog/securing-aws-s3-buckets-with-opa-and-object-lambda/) post. 
 
 ## Zero Trust Model
 
@@ -45,6 +44,11 @@ The results of all policy decisions are stored in Splunk and continuously monito
 to a user or non-person entity a detection rule triggers the appropriate security orchestration and automated response
 (SOAR) playbook.
 
+## FedRAMP Moderate Baseline storage design for AWS S3 (example)
+
+Infrastructure as code (IaC) will be used to implement compliance and security requirements of FedRAMP moderate baseline.
+![fedramp-s3.png](fedramp-s3.png)
+
 ## Running the demo in your environment
 This demo shows how to authorize requests to Amazon S3 using OPA policies. The main components are:
 1. Data Bucket: An S3 bucket storing sample data authorized by the Object Lambda.The S3 data bucket is configured to meet FedRAMP moderate baseline. 
@@ -61,7 +65,7 @@ Lambda.
 * OPA can be deployed anywhere as long as the Object Lambda can access it over HTTP(S).
 * The Rego policies must be built as a Bundle and loaded into OPA.
 
-![](diagram.png)
+![protect-surface.png](protect-surface.png)
 
 1. Create an S3 bucket for storing the data files
 
