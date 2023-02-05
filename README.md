@@ -68,6 +68,7 @@ Lambda.
 * The Rego policies must be built as a Bundle and loaded into OPA.
 
 ![protect-surface.png](protect-surface.png)
+The area outlined in red refers to the FedRAMP authorization boundary but can also be thought of as the protect surface in a zero-trust architectures. 
 
 1. Create an S3 bucket for storing the data files
 
